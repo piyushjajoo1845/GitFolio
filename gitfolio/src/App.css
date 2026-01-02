@@ -1,0 +1,8 @@
+body{
+    background-color: 'bg-gradient-to-br from-gray-900 via-black to-gray-900';
+    /* background-color: black; */
+}
+
+.font-playfairDisplay{
+    font-family: "Playfair Display", serif;
+}
