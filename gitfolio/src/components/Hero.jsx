@@ -50,7 +50,7 @@ const Hero = () => {
       <div className="flex flex-col md:flex-row mt-24  gap-5 md:gap-10 items-center">
         <div className="flex flex-col">
           <input
-          className="px-4 py-3 border-2 border-gray-700 bg-gray-900 text-white rounded-lg w-full md:w-96
+          className="px-4 py-3 border-2 border-gray-700 bg-[#141516] text-white rounded-lg w-full md:w-96
                       focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/50
                       transition-all duration-400"
           type="text"
@@ -74,6 +74,67 @@ const Hero = () => {
         >
           {loading ? "Generating..." : "Generate"}
         </button>
+      </div>
+
+
+      {/* feature highlights section */}
+      <div className="grid grid-cols-2 md:flex md:flex-row flex-wrap justify-center items-stretch gap-4 md:gap-6 mt-12 max-w-4xl mx-auto px-4">
+
+        {/* card 1 */}
+        <div className="
+          bg-[#141516] rounded-lg p-6 
+          w-full md:w-48
+          hover:border-purple-500 hover:scale-105 hover:-translate-y-4
+          hover:shadow-xl hover:shadow-purple-500/40
+          transition-all duration-300
+          flex flex-col items-center justify-center gap-2
+          cursor-pointer"
+          >
+          <span className="text-lg md:text-base text-gray-300 text-center font-medium">30 Seconds</span>
+        </div>
+
+        {/* card 2 */}
+        <div className="
+          bg-[#141516] rounded-lg p-6 
+          w-full md:w-48
+          hover:border-purple-500 hover:scale-105 hover:-translate-y-4
+          hover:shadow-xl hover:shadow-purple-500/40
+          transition-all duration-300
+          flex flex-col items-center justify-center gap-2
+          cursor-pointer"
+          >
+          <span className="text-lg md:text-base text-gray-300 text-center font-medium">One-Click deploy</span>
+        </div>
+
+        {/* card 3 */}
+        <div className="
+          bg-[#141516] rounded-lg p-6 
+          w-full md:w-48
+          hover:border-purple-500 hover:scale-105 hover:-translate-y-4
+          hover:shadow-xl hover:shadow-purple-500/40
+          transition-all duration-300
+          flex flex-col items-center justify-center gap-2
+          cursor-pointer"
+          >
+          <span className="text-lg md:text-base text-gray-300 text-center font-medium">No Coding</span>
+        </div>
+        
+        {/* card 4 */}
+        <div className="
+          bg-[#141516] rounded-lg p-6 
+          w-full md:w-48
+          hover:border-purple-500 hover:scale-105 hover:-translate-y-4
+          hover:shadow-xl hover:shadow-purple-500/40
+          transition-all duration-300
+          flex flex-col items-center justify-center gap-2
+          cursor-pointer"
+          >
+          <span className="text-lg md:text-base text-gray-300 text-center font-medium">Modern design</span>
+        </div>
+
+
+
+
       </div>
     </div>
   );
